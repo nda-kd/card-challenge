@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "20d546318b9a18e16c87f397265c3408",
+    "revision": "b78e0dff346e6bc5d54c340865991816",
     "url": "/reactjs-card-challenge/index.html"
   },
   {
-    "revision": "bf3b1e03dda686dee706",
+    "revision": "ffe64d53a7457a2c430b",
     "url": "/reactjs-card-challenge/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "786e81a2099d1361378c",
-    "url": "/reactjs-card-challenge/static/js/2.3bee33e0.chunk.js"
+    "revision": "1641b4879dbc7a5fdb36",
+    "url": "/reactjs-card-challenge/static/js/2.4431b169.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/reactjs-card-challenge/static/js/2.3bee33e0.chunk.js.LICENSE.txt"
+    "url": "/reactjs-card-challenge/static/js/2.4431b169.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bf3b1e03dda686dee706",
-    "url": "/reactjs-card-challenge/static/js/main.24f3787a.chunk.js"
+    "revision": "ffe64d53a7457a2c430b",
+    "url": "/reactjs-card-challenge/static/js/main.f3332a4e.chunk.js"
   },
   {
     "revision": "3ac1955675e4ff9a32cb",
