@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/reactjs-card-challenge/precache-manifest.b4a2b3994654e54f557673493d9c4b61.js"
+  "/reactjs-card-challenge/precache-manifest.301121c17ecfe9553de2023cd1bc6324.js"
 );
 
 self.addEventListener('message', (event) => {

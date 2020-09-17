@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "48a7a383346b0cbe32d66cdd46e80724",
+    "revision": "1a9bb6becce658d80456f0298fc239cf",
     "url": "/reactjs-card-challenge/index.html"
   },
   {
-    "revision": "55964076e2fff8cdeab8",
+    "revision": "d065a2b88d6d7cf035ee",
     "url": "/reactjs-card-challenge/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactjs-card-challenge/static/js/2.4431b169.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "55964076e2fff8cdeab8",
-    "url": "/reactjs-card-challenge/static/js/main.70846917.chunk.js"
+    "revision": "d065a2b88d6d7cf035ee",
+    "url": "/reactjs-card-challenge/static/js/main.d906daaf.chunk.js"
   },
   {
     "revision": "3ac1955675e4ff9a32cb",
