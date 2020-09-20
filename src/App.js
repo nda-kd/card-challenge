@@ -1,13 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import Homepage from './Pages/Homepage'
+import CardReducer from './reducer/CardReducer'
+import { createStore } from 'redux'
+import { Provider } from 'react-redux'
 
-function App() {
+const store = createStore(CardReducer)
+
+function App () {
   return (
-    <div className="App">
-      Hello World!
-    </div>
-  );
+    <Provider store={store}>
+      <div className='App'>
+        <Homepage />
+      </div>
+    </Provider>
+  )
 }
 
-export default App;
+export default App

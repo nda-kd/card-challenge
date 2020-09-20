@@ -1,0 +1,20 @@
+.card-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 85vh;
+    // background-color: aqua;
+}
+
+.fab-wrap{
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 0em 5em;
+    width: 100vw;
+    height: 15vh;
+    // background-color: rgb(255, 72, 0);
+}
+
