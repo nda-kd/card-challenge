@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/reactjs-card-challenge/static/css/main.5f361e03.chunk.css",
-    "main.js": "/reactjs-card-challenge/static/js/main.d906daaf.chunk.js",
-    "main.js.map": "/reactjs-card-challenge/static/js/main.d906daaf.chunk.js.map",
-    "runtime-main.js": "/reactjs-card-challenge/static/js/runtime-main.cfd2d842.js",
-    "runtime-main.js.map": "/reactjs-card-challenge/static/js/runtime-main.cfd2d842.js.map",
-    "static/js/2.4431b169.chunk.js": "/reactjs-card-challenge/static/js/2.4431b169.chunk.js",
-    "static/js/2.4431b169.chunk.js.map": "/reactjs-card-challenge/static/js/2.4431b169.chunk.js.map",
-    "index.html": "/reactjs-card-challenge/index.html",
-    "precache-manifest.301121c17ecfe9553de2023cd1bc6324.js": "/reactjs-card-challenge/precache-manifest.301121c17ecfe9553de2023cd1bc6324.js",
-    "service-worker.js": "/reactjs-card-challenge/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/reactjs-card-challenge/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.4431b169.chunk.js.LICENSE.txt": "/reactjs-card-challenge/static/js/2.4431b169.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/reactjs-card-challenge/static/media/logo.5d5d9eef.svg"
+    "main.css": "/card-challenge/static/css/main.27d25994.chunk.css",
+    "main.js": "/card-challenge/static/js/main.83d8ba8a.chunk.js",
+    "main.js.map": "/card-challenge/static/js/main.83d8ba8a.chunk.js.map",
+    "runtime-main.js": "/card-challenge/static/js/runtime-main.0fadb25c.js",
+    "runtime-main.js.map": "/card-challenge/static/js/runtime-main.0fadb25c.js.map",
+    "static/js/2.400ded7e.chunk.js": "/card-challenge/static/js/2.400ded7e.chunk.js",
+    "static/js/2.400ded7e.chunk.js.map": "/card-challenge/static/js/2.400ded7e.chunk.js.map",
+    "index.html": "/card-challenge/index.html",
+    "precache-manifest.590b180978212ac682d3d032353db47c.js": "/card-challenge/precache-manifest.590b180978212ac682d3d032353db47c.js",
+    "service-worker.js": "/card-challenge/service-worker.js",
+    "static/css/main.27d25994.chunk.css.map": "/card-challenge/static/css/main.27d25994.chunk.css.map",
+    "static/js/2.400ded7e.chunk.js.LICENSE.txt": "/card-challenge/static/js/2.400ded7e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.cfd2d842.js",
-    "static/js/2.4431b169.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.d906daaf.chunk.js"
+    "static/js/runtime-main.0fadb25c.js",
+    "static/js/2.400ded7e.chunk.js",
+    "static/css/main.27d25994.chunk.css",
+    "static/js/main.83d8ba8a.chunk.js"
   ]
 }
