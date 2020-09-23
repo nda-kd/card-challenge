@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/card-challenge/static/css/main.27d25994.chunk.css",
-    "main.js": "/card-challenge/static/js/main.83d8ba8a.chunk.js",
-    "main.js.map": "/card-challenge/static/js/main.83d8ba8a.chunk.js.map",
+    "main.js": "/card-challenge/static/js/main.0d659307.chunk.js",
+    "main.js.map": "/card-challenge/static/js/main.0d659307.chunk.js.map",
     "runtime-main.js": "/card-challenge/static/js/runtime-main.0fadb25c.js",
     "runtime-main.js.map": "/card-challenge/static/js/runtime-main.0fadb25c.js.map",
-    "static/js/2.400ded7e.chunk.js": "/card-challenge/static/js/2.400ded7e.chunk.js",
-    "static/js/2.400ded7e.chunk.js.map": "/card-challenge/static/js/2.400ded7e.chunk.js.map",
+    "static/js/2.50c00a39.chunk.js": "/card-challenge/static/js/2.50c00a39.chunk.js",
+    "static/js/2.50c00a39.chunk.js.map": "/card-challenge/static/js/2.50c00a39.chunk.js.map",
     "index.html": "/card-challenge/index.html",
-    "precache-manifest.590b180978212ac682d3d032353db47c.js": "/card-challenge/precache-manifest.590b180978212ac682d3d032353db47c.js",
+    "precache-manifest.2df6863d535f765b21ac640ecc09508f.js": "/card-challenge/precache-manifest.2df6863d535f765b21ac640ecc09508f.js",
     "service-worker.js": "/card-challenge/service-worker.js",
     "static/css/main.27d25994.chunk.css.map": "/card-challenge/static/css/main.27d25994.chunk.css.map",
-    "static/js/2.400ded7e.chunk.js.LICENSE.txt": "/card-challenge/static/js/2.400ded7e.chunk.js.LICENSE.txt"
+    "static/js/2.50c00a39.chunk.js.LICENSE.txt": "/card-challenge/static/js/2.50c00a39.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0fadb25c.js",
-    "static/js/2.400ded7e.chunk.js",
+    "static/js/2.50c00a39.chunk.js",
     "static/css/main.27d25994.chunk.css",
-    "static/js/main.83d8ba8a.chunk.js"
+    "static/js/main.0d659307.chunk.js"
   ]
 }
