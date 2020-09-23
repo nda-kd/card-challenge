@@ -22,13 +22,8 @@ export default function MediaCard({data}) {
   console.log('mediaCardProps', data)
 
   return (
-    <Card className={classes.root}>
+    <Card className='root'>
       <CardActionArea>
-      {data.code === 0 && <CardMedia
-          className={classes.media}
-          image={data.image}
-          title="Contemplative Reptile"
-        /> }
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             {data.title}
@@ -38,6 +33,20 @@ export default function MediaCard({data}) {
           </Typography>
         </CardContent>
       </CardActionArea>
+
+      {data.code === 0 && <CardMedia
+          className={classes.media}
+          image={data.image}
+          title="Contemplative Reptile"
+        /> }
+      {
+        data.code === 1 && <div className='animated-card'/>
+      }
+      {
+        data.code === 2 && <audio className='audio' controls autoPlay="autoplay">
+         <source src={data.sound} type="audio/mpeg" />
+          </audio>
+      }
       <CardActions>
         <Button size="small" color="primary">
           Edit

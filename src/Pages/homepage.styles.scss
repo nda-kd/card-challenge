@@ -15,6 +15,34 @@
     padding: 0em 5em;
     width: 100vw;
     height: 15vh;
-    // background-color: rgb(255, 72, 0);
 }
 
+@keyframes blink {
+  0%   {background-color: rgb(233, 12, 12);}
+  25%  {background-color: rgb(241, 238, 46);}
+  50%  {background-color: rgb(14, 14, 238);}
+  100% {background-color: rgb(23, 235, 16);}
+}
+
+.animated-card{
+    width: 100%;
+    height: 130px;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-delay: -3s;
+    animation-iteration-count: infinite;
+}
+
+.audio{
+    box-sizing: border-box;
+    padding: 0px 10px;
+    &:focus {
+        outline: none;;
+    }
+}
+
+// tag strles
+
+.art{
+    background-color: blue;
+}

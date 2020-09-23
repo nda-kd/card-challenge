@@ -19,7 +19,6 @@ class Homepage extends React.Component {
       .then((response) => {
         console.log('res;;;', response)
         this.props.dispatch(getData(response.data.cards))
-        console.log('setState======', this.state.cards)
       })
       .catch(error => {
         console.log(error)
@@ -35,7 +34,7 @@ class Homepage extends React.Component {
     return (
       <>
         <div className='card-wrap'>
-          <MediaCard imageUrl= {selectedCard.image} data={selectedCard} />
+          <MediaCard data={selectedCard} />
         </div>
         <div className='fab-wrap'>
           <Fab color='primary' aria-label='add'>
