@@ -22,7 +22,7 @@ export default function MediaCard ({ data }) {
   console.log('mediaCardProps', data)
 
   return (
-    <Card className='root'>
+    <Card className={data.tag}>
       <CardActionArea>
         <CardContent>
           <Typography gutterBottom variant='h5' component='h2'>
