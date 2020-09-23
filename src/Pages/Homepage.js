@@ -2,26 +2,27 @@ import React from 'react'
 import './homepage.styles.scss'
 import axios from 'axios'
 import { connect } from 'react-redux'
-import { getData } from '../action/CardAction'
+import { getData, nextTry } from '../action/CardAction'
 
 import MediaCard from '../Components/Cards'
 import Fab from '@material-ui/core/Fab'
 import NavigateNextRoundedIcon from '@material-ui/icons/NavigateNextRounded'
 
 class Homepage extends React.Component {
-  constructor (props) {
-    super()
+  // constructor (props) {
+  //   super()
 
-    this.state = {
-      cards: ''
-    }
-  }
+  //   this.state = {
+  //     cards: 0
+  //   }
+  // }
 
   nextCard () {
-    const { data } = this.props
-    const show = data[Math.floor(Math.random() * data.length)]
-    this.setState({ cards: show })
-    console.log('show', show)
+    this.props.dispatch(nextTry())
+    // const { data } = this.props
+    // const show = data[Math.floor(Math.random() * data.length)]
+    // this.setState({ cards: show })
+    // console.log('show', show)
   }
 
   componentDidMount () {
@@ -29,7 +30,6 @@ class Homepage extends React.Component {
       .then((response) => {
         console.log('res;;;', response)
         this.props.dispatch(getData(response.data.cards))
-        this.setState({ cards: this.props.data[1] })
         console.log('setState======', this.state.cards)
       })
       .catch(error => {
@@ -38,13 +38,15 @@ class Homepage extends React.Component {
   }
 
   render () {
+    
     console.log('data', this.props.data)
-    const { cards } = this.state
+    console.log('selectedCard', this.props.selectedCard)
+    const { selectedCard } = this.props
 
     return (
       <>
         <div className='card-wrap'>
-          <MediaCard data={cards} />
+          <MediaCard imageUrl= {selectedCard.image} data={selectedCard} />
         </div>
         <div className='fab-wrap'>
           <Fab color='primary' aria-label='add'>
@@ -57,7 +59,8 @@ class Homepage extends React.Component {
 }
 
 const mapStateToProps = (state) => ({
-  data: state.data
+  data: state.data,
+  selectedCard: state.selectedCard,
 })
 
 const mapDispatchToProps = (dispatch) => ({
