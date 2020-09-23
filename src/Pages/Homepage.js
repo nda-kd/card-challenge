@@ -15,7 +15,7 @@ class Homepage extends React.Component {
   }
 
   componentDidMount () {
-    axios.get('http://static.pushe.co/challenge/json')
+    axios.get('https://static.pushe.co/challenge/json')
       .then((response) => {
         console.log('res;;;', response)
         this.props.dispatch(getData(response.data.cards))
