@@ -9,7 +9,6 @@ import Fab from '@material-ui/core/Fab'
 import NavigateNextRoundedIcon from '@material-ui/icons/NavigateNextRounded'
 
 class Homepage extends React.Component {
-
   nextCard () {
     this.props.dispatch(nextTry())
   }
@@ -26,15 +25,13 @@ class Homepage extends React.Component {
   }
 
   render () {
-    
     console.log('data', this.props.data)
-    console.log('selectedCard', this.props.selectedCard)
-    const { selectedCard } = this.props
+    const { randomCard } = this.props
 
     return (
       <>
         <div className='card-wrap'>
-          <MediaCard data={selectedCard} />
+          <MediaCard data={randomCard} />
         </div>
         <div className='fab-wrap'>
           <Fab color='primary' aria-label='add'>
@@ -48,7 +45,7 @@ class Homepage extends React.Component {
 
 const mapStateToProps = (state) => ({
   data: state.data,
-  selectedCard: state.selectedCard,
+  randomCard: state.randomCard
 })
 
 const mapDispatchToProps = (dispatch) => ({
