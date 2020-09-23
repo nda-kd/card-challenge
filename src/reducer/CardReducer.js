@@ -1,6 +1,7 @@
 const Init = {
   data: [],
-  randomCardIndex: ''
+  selectedCard: {},
+  randomCardIndex: 0
 }
 
 const CardReducer = (state = Init, action) => {
@@ -10,8 +11,17 @@ const CardReducer = (state = Init, action) => {
     case 'GET_DATA' :
       return {
         ...state,
-        data: action.payload
+        data: action.payload,
+        selectedCard: action.payload[state.randomCardIndex]
       }
+    case 'NEXT_TRY':
+      const randomCardIndex = Math.floor(Math.random() * state.data.length)
+      return {
+        ...state,
+        selectedCard: state.data[randomCardIndex],
+        randomCardIndex: randomCardIndex
+        }
+  
     default :
       return state
   }
