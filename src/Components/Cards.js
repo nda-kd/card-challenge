@@ -24,7 +24,6 @@ export default function MediaCard({data}) {
   return (
     <Card className={classes.root}>
       <CardActionArea>
-      //ok
       {data.code === 0 && <CardMedia
           className={classes.media}
           image={data.image}
