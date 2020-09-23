@@ -1,9 +1,6 @@
 const Init = {
   data: [],
-  selectedCard: {
-    title: '',
-    description: ''
-  },
+  selectedCard: {},
   randomCardIndex: 0
 }
 

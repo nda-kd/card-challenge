@@ -9,20 +9,9 @@ import Fab from '@material-ui/core/Fab'
 import NavigateNextRoundedIcon from '@material-ui/icons/NavigateNextRounded'
 
 class Homepage extends React.Component {
-  // constructor (props) {
-  //   super()
-
-  //   this.state = {
-  //     cards: 0
-  //   }
-  // }
 
   nextCard () {
     this.props.dispatch(nextTry())
-    // const { data } = this.props
-    // const show = data[Math.floor(Math.random() * data.length)]
-    // this.setState({ cards: show })
-    // console.log('show', show)
   }
 
   componentDidMount () {
