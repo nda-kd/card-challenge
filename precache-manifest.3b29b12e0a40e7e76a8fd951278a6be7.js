@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2518cdee392608787e22ac2d2a49758",
+    "revision": "07edaf97830f8c5527583ca0967bc15a",
     "url": "/card-challenge/index.html"
   },
   {
-    "revision": "4ace6bc3f90d1ab0a022",
+    "revision": "bbe3b0ea664a1053d953",
     "url": "/card-challenge/static/css/main.27d25994.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/card-challenge/static/js/2.50c00a39.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4ace6bc3f90d1ab0a022",
-    "url": "/card-challenge/static/js/main.0d659307.chunk.js"
+    "revision": "bbe3b0ea664a1053d953",
+    "url": "/card-challenge/static/js/main.d42701e4.chunk.js"
   },
   {
     "revision": "082e897718cd489306c4",
