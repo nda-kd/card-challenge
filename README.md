@@ -9,7 +9,7 @@ I found this challenge [here](https://github.com/ronashco/reactjs-card-challenge
 * Application state and data, fetched from the server, should be managed by Redux
 * edit the title and description text on the cards and save it locally
 
- ### See Demo URL- [Card Challenge](nda-kd.github.io/card-challenge/)
+ ### See Demo URL- [Card Challenge](https://nda-kd.github.io/card-challenge/)
 ![](docs/carts.gif)
 
 ### Installation
