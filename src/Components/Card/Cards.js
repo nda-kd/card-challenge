@@ -13,7 +13,11 @@ import Typography from '@material-ui/core/Typography'
 import Modal from '@material-ui/core/Modal'
 import Backdrop from '@material-ui/core/Backdrop'
 import Fade from '@material-ui/core/Fade'
+<<<<<<< HEAD
 import ModalContent from '../ModalContent/modalContent'
+=======
+import ModalContent from '../Modal/modal'
+>>>>>>> 00f1f03efc5063012103da3d7b3874206949ca1a
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -35,7 +39,10 @@ const useStyles = makeStyles((theme) => ({
   }
 }))
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 00f1f03efc5063012103da3d7b3874206949ca1a
 export default function MediaCard ({ data }) {
   console.log('mediaCardProps', data)
 

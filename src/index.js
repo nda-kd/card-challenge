@@ -5,7 +5,11 @@ import App from './App'
 import * as serviceWorker from './serviceWorker'
 
 ReactDOM.render(
+<<<<<<< HEAD
     <App />,
+=======
+  <App />,
+>>>>>>> 00f1f03efc5063012103da3d7b3874206949ca1a
   document.getElementById('root')
 )
 
