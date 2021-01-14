@@ -1,4 +1,4 @@
-# Project topic: card-challenge
+# Project: card-challenge
 
 I found this challenge [here](https://github.com/ronashco/reactjs-card-challenge) and I tried it :relaxed:
 
