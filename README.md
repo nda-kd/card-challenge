@@ -1,6 +1,6 @@
 # Project topic: card-challenge
 
-this is a challenge I found [here](https://github.com/ronashco/reactjs-card-challenge) and i tried :relaxed:
+I found this challenge [here](https://github.com/ronashco/reactjs-card-challenge) and I tried it :relaxed:
 
 ## features:
 * Shows a random card on the screen when you press the "TRY" button
