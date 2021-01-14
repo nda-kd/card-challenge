@@ -11,7 +11,7 @@ I found this challenge [here](https://github.com/ronashco/reactjs-card-challenge
 
  ### See Demo URL- [Card Challenge](https://nda-kd.github.io/card-challenge/)
  
-<img src="Docs/carts.gif" width="100" height="100">
+<img src="Docs/carts.gif" width="300" height="350">
 
 ### Installation
 ``` 
