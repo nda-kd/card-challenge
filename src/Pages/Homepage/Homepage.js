@@ -1,25 +1,23 @@
 import React from 'react'
-import './homepage.styles.scss'
+import './homepage.scss'
 import axios from 'axios'
 import { connect } from 'react-redux'
-import { getData, nextTry } from '../action/CardAction'
+import { getData, nextTry } from '../../action/CardAction'
 
-import MediaCard from '../Components/Cards'
+import MediaCard from '../../Components/Card/Cards'
 import Fab from '@material-ui/core/Fab'
 import NavigateNextRoundedIcon from '@material-ui/icons/NavigateNextRounded'
 
 class Homepage extends React.Component {
-
   nextCard () {
     this.props.dispatch(nextTry())
   }
 
   componentDidMount () {
-    axios.get('http://static.pushe.co/challenge/json')
+    axios.get('https://static.pushe.co/challenge/json')
       .then((response) => {
         console.log('res;;;', response)
         this.props.dispatch(getData(response.data.cards))
-        console.log('setState======', this.state.cards)
       })
       .catch(error => {
         console.log(error)
@@ -27,15 +25,13 @@ class Homepage extends React.Component {
   }
 
   render () {
-    
     console.log('data', this.props.data)
-    console.log('selectedCard', this.props.selectedCard)
-    const { selectedCard } = this.props
+    const { randomCard } = this.props
 
     return (
       <>
         <div className='card-wrap'>
-          <MediaCard imageUrl= {selectedCard.image} data={selectedCard} />
+          <MediaCard data={randomCard} />
         </div>
         <div className='fab-wrap'>
           <Fab color='primary' aria-label='add'>
@@ -49,7 +45,7 @@ class Homepage extends React.Component {
 
 const mapStateToProps = (state) => ({
   data: state.data,
-  selectedCard: state.selectedCard,
+  randomCard: state.randomCard
 })
 
 const mapDispatchToProps = (dispatch) => ({

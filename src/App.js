@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import Homepage from './Pages/Homepage'
+import Homepage from './Pages/Homepage/Homepage'
 import CardReducer from './reducer/CardReducer'
 import { createStore } from 'redux'
 import { Provider } from 'react-redux'
