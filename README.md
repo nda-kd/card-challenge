@@ -10,7 +10,7 @@ I found this challenge [here](https://github.com/ronashco/reactjs-card-challenge
 * edit the title and description text on the cards and save it locally
 
  ### See Demo URL- [Card Challenge](https://nda-kd.github.io/card-challenge/)
-![](docs/carts.gif)
+![](Docs/carts.gif)
 
 ### Installation
 ``` 
