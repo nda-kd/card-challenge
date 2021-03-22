@@ -1,6 +1,6 @@
 # Project: card-challenge
 
-I found this challenge [here](https://github.com/ronashco/reactjs-card-challenge) and I tried it :relaxed:
+I found this challenge [here](https://github.com/ronashco/reactjs-card-challenge) and I tried it :relaxed: <br/>
 "In this challenge, I developed a reactJS responsive web application which
 shows a random card on the page and has a button. Whenever the user
 clicks on the button, it show another card. also user is able to edit the title and description text on the cards
