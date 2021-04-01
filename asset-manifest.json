@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/card-challenge/static/css/main.0af19380.chunk.css",
-    "main.js": "/card-challenge/static/js/main.67a069d3.chunk.js",
-    "main.js.map": "/card-challenge/static/js/main.67a069d3.chunk.js.map",
-    "runtime-main.js": "/card-challenge/static/js/runtime-main.0fadb25c.js",
-    "runtime-main.js.map": "/card-challenge/static/js/runtime-main.0fadb25c.js.map",
-    "static/js/2.4f67ed02.chunk.js": "/card-challenge/static/js/2.4f67ed02.chunk.js",
-    "static/js/2.4f67ed02.chunk.js.map": "/card-challenge/static/js/2.4f67ed02.chunk.js.map",
-    "index.html": "/card-challenge/index.html",
-    "precache-manifest.069dd5eb1c2682edb1e7a2cae5122a43.js": "/card-challenge/precache-manifest.069dd5eb1c2682edb1e7a2cae5122a43.js",
-    "service-worker.js": "/card-challenge/service-worker.js",
-    "static/css/main.0af19380.chunk.css.map": "/card-challenge/static/css/main.0af19380.chunk.css.map",
-    "static/js/2.4f67ed02.chunk.js.LICENSE.txt": "/card-challenge/static/js/2.4f67ed02.chunk.js.LICENSE.txt"
+    "main.css": "/heXico/static/css/main.e19fe50d.chunk.css",
+    "main.js": "/heXico/static/js/main.330a94af.chunk.js",
+    "main.js.map": "/heXico/static/js/main.330a94af.chunk.js.map",
+    "runtime-main.js": "/heXico/static/js/runtime-main.748dda43.js",
+    "runtime-main.js.map": "/heXico/static/js/runtime-main.748dda43.js.map",
+    "static/js/2.e13b51d6.chunk.js": "/heXico/static/js/2.e13b51d6.chunk.js",
+    "static/js/2.e13b51d6.chunk.js.map": "/heXico/static/js/2.e13b51d6.chunk.js.map",
+    "index.html": "/heXico/index.html",
+    "precache-manifest.f9d529141515536db903fed588f14522.js": "/heXico/precache-manifest.f9d529141515536db903fed588f14522.js",
+    "service-worker.js": "/heXico/service-worker.js",
+    "static/css/main.e19fe50d.chunk.css.map": "/heXico/static/css/main.e19fe50d.chunk.css.map",
+    "static/js/2.e13b51d6.chunk.js.LICENSE.txt": "/heXico/static/js/2.e13b51d6.chunk.js.LICENSE.txt",
+    "static/media/profile.scss": "/heXico/static/media/BalooTamma2-Regular.05aa77b1.ttf",
+    "static/media/Login-image.svg": "/heXico/static/media/Login-image.8d11f737.svg",
+    "static/media/SEND.svg": "/heXico/static/media/SEND.13323f72.svg",
+    "static/media/Signup-image.svg": "/heXico/static/media/Signup-image.a383d3db.svg",
+    "static/media/setting.png": "/heXico/static/media/setting.89bcbe4a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0fadb25c.js",
-    "static/js/2.4f67ed02.chunk.js",
-    "static/css/main.0af19380.chunk.css",
-    "static/js/main.67a069d3.chunk.js"
+    "static/js/runtime-main.748dda43.js",
+    "static/js/2.e13b51d6.chunk.js",
+    "static/css/main.e19fe50d.chunk.css",
+    "static/js/main.330a94af.chunk.js"
   ]
 }
