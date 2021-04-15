@@ -1,11 +1,15 @@
-import React from 'react'
-import './App.css'
-import Homepage from './Pages/Homepage/Homepage'
-import CardReducer from './reducer/CardReducer'
-import { createStore } from 'redux'
-import { Provider } from 'react-redux'
 
-const store = createStore(CardReducer)
+import React from 'react'
+import { createStore, applyMiddleware } from 'redux'
+import { Provider } from 'react-redux'
+import thunk from 'redux-thunk'
+
+import Homepage from './container/homepage'
+import CardReducer from './Redux/Reducer/CardReducer'
+
+import './App.css'
+
+const store = createStore(CardReducer,applyMiddleware(thunk))
 
 function App () {
   return (
